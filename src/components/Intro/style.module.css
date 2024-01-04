@@ -18,7 +18,9 @@
 
 .intro{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
     position: relative;
     margin-top: 35vh;
 }
@@ -26,6 +28,14 @@
 .intro h1{
     color: white;
     font-size: 7vw;
+    z-index: 3;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.intro h2{
+    color: white;
+    font-size: 5vw;
     z-index: 3;
     text-align: center;
     white-space: nowrap;
